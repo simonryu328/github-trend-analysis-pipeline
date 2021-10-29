@@ -1,0 +1,320 @@
+[2021-10-24 22:55:12,510] {processor.py:163} INFO - Started process (PID=44) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:12,512] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:55:12,513] {logging_mixin.py:109} INFO - [2021-10-24 22:55:12,513] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:16,721] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:55:16,723] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:55:16,724] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:55:16,748] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:16,762] {logging_mixin.py:109} INFO - [2021-10-24 22:55:16,760] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:55:16,779] {logging_mixin.py:109} INFO - [2021-10-24 22:55:16,779] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:55:16,788] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 4.281 seconds
+[2021-10-24 22:55:46,965] {processor.py:163} INFO - Started process (PID=137) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:46,966] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:55:46,966] {logging_mixin.py:109} INFO - [2021-10-24 22:55:46,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:47,835] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:55:47,836] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:55:47,837] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:55:47,854] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:55:47,866] {logging_mixin.py:109} INFO - [2021-10-24 22:55:47,864] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:55:47,880] {logging_mixin.py:109} INFO - [2021-10-24 22:55:47,880] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:55:47,888] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.926 seconds
+[2021-10-24 22:56:18,199] {processor.py:163} INFO - Started process (PID=201) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:56:18,200] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:56:18,201] {logging_mixin.py:109} INFO - [2021-10-24 22:56:18,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:56:19,017] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:56:19,018] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:56:19,019] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:56:19,037] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:56:19,049] {logging_mixin.py:109} INFO - [2021-10-24 22:56:19,048] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:56:19,063] {logging_mixin.py:109} INFO - [2021-10-24 22:56:19,063] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:56:19,071] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.876 seconds
+[2021-10-24 22:57:25,612] {processor.py:163} INFO - Started process (PID=44) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:25,613] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:57:25,614] {logging_mixin.py:109} INFO - [2021-10-24 22:57:25,614] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:28,603] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:57:28,606] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:57:28,608] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:57:28,630] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:28,644] {logging_mixin.py:109} INFO - [2021-10-24 22:57:28,643] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:57:28,663] {logging_mixin.py:109} INFO - [2021-10-24 22:57:28,663] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:57:28,672] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 3.064 seconds
+[2021-10-24 22:57:58,800] {processor.py:163} INFO - Started process (PID=133) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:58,801] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:57:58,801] {logging_mixin.py:109} INFO - [2021-10-24 22:57:58,801] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:59,591] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:57:59,593] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:57:59,594] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:57:59,610] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:57:59,622] {logging_mixin.py:109} INFO - [2021-10-24 22:57:59,621] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:57:59,635] {logging_mixin.py:109} INFO - [2021-10-24 22:57:59,635] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:57:59,643] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.845 seconds
+[2021-10-24 22:58:29,865] {processor.py:163} INFO - Started process (PID=202) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:58:29,866] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:58:29,867] {logging_mixin.py:109} INFO - [2021-10-24 22:58:29,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:58:30,840] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:58:30,843] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:58:30,844] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:58:30,867] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:58:30,886] {logging_mixin.py:109} INFO - [2021-10-24 22:58:30,884] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:58:30,904] {logging_mixin.py:109} INFO - [2021-10-24 22:58:30,904] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:58:30,912] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.050 seconds
+[2021-10-24 22:59:01,332] {processor.py:163} INFO - Started process (PID=270) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:01,333] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:59:01,333] {logging_mixin.py:109} INFO - [2021-10-24 22:59:01,333] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:02,178] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:59:02,180] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:59:02,181] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:59:02,198] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:02,210] {logging_mixin.py:109} INFO - [2021-10-24 22:59:02,209] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:59:02,226] {logging_mixin.py:109} INFO - [2021-10-24 22:59:02,226] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:59:02,234] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.905 seconds
+[2021-10-24 22:59:32,438] {processor.py:163} INFO - Started process (PID=350) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:32,439] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 22:59:32,440] {logging_mixin.py:109} INFO - [2021-10-24 22:59:32,439] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:33,572] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:59:33,574] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 22:59:33,575] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 22:59:33,621] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 22:59:33,636] {logging_mixin.py:109} INFO - [2021-10-24 22:59:33,635] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 22:59:33,653] {logging_mixin.py:109} INFO - [2021-10-24 22:59:33,653] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 22:59:33,662] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.227 seconds
+[2021-10-24 23:47:47,928] {processor.py:163} INFO - Started process (PID=44) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:47:47,931] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:47:47,935] {logging_mixin.py:109} INFO - [2021-10-24 23:47:47,935] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:47:51,365] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:47:51,368] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:47:51,370] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:47:51,396] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:47:51,412] {logging_mixin.py:109} INFO - [2021-10-24 23:47:51,410] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:47:51,434] {logging_mixin.py:109} INFO - [2021-10-24 23:47:51,433] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:47:51,443] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 3.520 seconds
+[2021-10-24 23:48:21,498] {processor.py:163} INFO - Started process (PID=133) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:21,500] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:48:21,501] {logging_mixin.py:109} INFO - [2021-10-24 23:48:21,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:23,887] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:48:23,891] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:48:23,894] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:48:23,933] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:23,973] {logging_mixin.py:109} INFO - [2021-10-24 23:48:23,969] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:48:24,016] {logging_mixin.py:109} INFO - [2021-10-24 23:48:24,016] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:48:24,031] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 2.542 seconds
+[2021-10-24 23:48:54,345] {processor.py:163} INFO - Started process (PID=204) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:54,347] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:48:54,347] {logging_mixin.py:109} INFO - [2021-10-24 23:48:54,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:55,640] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:48:55,644] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:48:55,646] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:48:55,679] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:48:55,703] {logging_mixin.py:109} INFO - [2021-10-24 23:48:55,698] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:48:55,736] {logging_mixin.py:109} INFO - [2021-10-24 23:48:55,736] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:48:55,751] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.409 seconds
+[2021-10-24 23:49:25,982] {processor.py:163} INFO - Started process (PID=272) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:25,985] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:49:25,987] {logging_mixin.py:109} INFO - [2021-10-24 23:49:25,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:27,318] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:49:27,320] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:49:27,321] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:49:27,342] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:27,358] {logging_mixin.py:109} INFO - [2021-10-24 23:49:27,357] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:49:27,378] {logging_mixin.py:109} INFO - [2021-10-24 23:49:27,378] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:49:27,388] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.413 seconds
+[2021-10-24 23:49:57,610] {processor.py:163} INFO - Started process (PID=338) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:57,611] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:49:57,612] {logging_mixin.py:109} INFO - [2021-10-24 23:49:57,612] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:59,168] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:49:59,171] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:49:59,173] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:49:59,211] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:49:59,235] {logging_mixin.py:109} INFO - [2021-10-24 23:49:59,233] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:49:59,264] {logging_mixin.py:109} INFO - [2021-10-24 23:49:59,263] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:49:59,275] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.669 seconds
+[2021-10-24 23:50:29,348] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:50:29,349] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:50:29,350] {logging_mixin.py:109} INFO - [2021-10-24 23:50:29,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:50:30,651] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:50:30,653] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:50:30,655] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:50:30,684] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:50:30,707] {logging_mixin.py:109} INFO - [2021-10-24 23:50:30,704] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:50:30,730] {logging_mixin.py:109} INFO - [2021-10-24 23:50:30,730] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:50:30,749] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.405 seconds
+[2021-10-24 23:51:01,252] {processor.py:163} INFO - Started process (PID=479) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:01,255] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:51:01,256] {logging_mixin.py:109} INFO - [2021-10-24 23:51:01,256] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:02,813] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:51:02,815] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:51:02,817] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:51:02,845] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:02,867] {logging_mixin.py:109} INFO - [2021-10-24 23:51:02,866] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:51:02,890] {logging_mixin.py:109} INFO - [2021-10-24 23:51:02,890] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:51:02,905] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.657 seconds
+[2021-10-24 23:51:33,014] {processor.py:163} INFO - Started process (PID=550) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:33,015] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:51:33,016] {logging_mixin.py:109} INFO - [2021-10-24 23:51:33,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:34,018] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:51:34,020] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:51:34,022] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:51:34,042] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:51:34,059] {logging_mixin.py:109} INFO - [2021-10-24 23:51:34,058] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:51:34,081] {logging_mixin.py:109} INFO - [2021-10-24 23:51:34,080] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:51:34,090] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.081 seconds
+[2021-10-24 23:52:04,394] {processor.py:163} INFO - Started process (PID=614) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:04,398] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:52:04,400] {logging_mixin.py:109} INFO - [2021-10-24 23:52:04,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:05,824] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:52:05,827] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:52:05,828] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:52:05,859] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:05,877] {logging_mixin.py:109} INFO - [2021-10-24 23:52:05,874] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:52:05,904] {logging_mixin.py:109} INFO - [2021-10-24 23:52:05,904] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:52:05,922] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.542 seconds
+[2021-10-24 23:52:36,198] {processor.py:163} INFO - Started process (PID=686) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:36,202] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:52:36,203] {logging_mixin.py:109} INFO - [2021-10-24 23:52:36,203] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:37,479] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:52:37,482] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:52:37,484] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:52:37,519] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:52:37,546] {logging_mixin.py:109} INFO - [2021-10-24 23:52:37,543] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:52:37,569] {logging_mixin.py:109} INFO - [2021-10-24 23:52:37,569] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:52:37,588] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.393 seconds
+[2021-10-24 23:53:07,804] {processor.py:163} INFO - Started process (PID=754) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:07,806] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:53:07,807] {logging_mixin.py:109} INFO - [2021-10-24 23:53:07,806] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:08,559] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:53:08,561] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:53:08,562] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:53:08,578] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:08,591] {logging_mixin.py:109} INFO - [2021-10-24 23:53:08,590] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:53:08,610] {logging_mixin.py:109} INFO - [2021-10-24 23:53:08,610] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:53:08,620] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.819 seconds
+[2021-10-24 23:53:38,726] {processor.py:163} INFO - Started process (PID=818) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:38,729] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:53:38,730] {logging_mixin.py:109} INFO - [2021-10-24 23:53:38,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:40,189] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:53:40,192] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:53:40,194] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:53:40,224] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:53:40,256] {logging_mixin.py:109} INFO - [2021-10-24 23:53:40,254] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:53:40,290] {logging_mixin.py:109} INFO - [2021-10-24 23:53:40,290] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:53:40,307] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.586 seconds
+[2021-10-24 23:54:10,820] {processor.py:163} INFO - Started process (PID=887) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:10,822] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:54:10,823] {logging_mixin.py:109} INFO - [2021-10-24 23:54:10,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:11,837] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:54:11,839] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:54:11,841] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:54:11,868] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:11,888] {logging_mixin.py:109} INFO - [2021-10-24 23:54:11,887] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:54:11,905] {logging_mixin.py:109} INFO - [2021-10-24 23:54:11,904] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:54:11,913] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.098 seconds
+[2021-10-24 23:54:42,011] {processor.py:163} INFO - Started process (PID=963) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:42,013] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:54:42,013] {logging_mixin.py:109} INFO - [2021-10-24 23:54:42,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:43,239] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:54:43,242] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:54:43,243] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:54:43,274] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:54:43,296] {logging_mixin.py:109} INFO - [2021-10-24 23:54:43,294] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:54:43,320] {logging_mixin.py:109} INFO - [2021-10-24 23:54:43,319] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:54:43,329] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.320 seconds
+[2021-10-24 23:55:13,375] {processor.py:163} INFO - Started process (PID=1027) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:13,377] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:55:13,378] {logging_mixin.py:109} INFO - [2021-10-24 23:55:13,378] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:14,168] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:55:14,170] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:55:14,171] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:55:14,187] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:14,199] {logging_mixin.py:109} INFO - [2021-10-24 23:55:14,198] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:55:14,214] {logging_mixin.py:109} INFO - [2021-10-24 23:55:14,214] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:55:14,221] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.849 seconds
+[2021-10-24 23:55:44,505] {processor.py:163} INFO - Started process (PID=1091) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:44,508] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:55:44,509] {logging_mixin.py:109} INFO - [2021-10-24 23:55:44,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:45,245] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:55:45,247] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:55:45,248] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:55:45,264] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:55:45,275] {logging_mixin.py:109} INFO - [2021-10-24 23:55:45,274] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:55:45,289] {logging_mixin.py:109} INFO - [2021-10-24 23:55:45,289] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:55:45,296] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.797 seconds
+[2021-10-24 23:56:15,941] {processor.py:163} INFO - Started process (PID=1166) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:15,942] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:56:15,942] {logging_mixin.py:109} INFO - [2021-10-24 23:56:15,942] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:16,731] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:56:16,733] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:56:16,734] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:56:16,751] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:16,768] {logging_mixin.py:109} INFO - [2021-10-24 23:56:16,766] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:56:16,787] {logging_mixin.py:109} INFO - [2021-10-24 23:56:16,786] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:56:16,796] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.858 seconds
+[2021-10-24 23:56:46,910] {processor.py:163} INFO - Started process (PID=1230) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:46,912] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:56:46,913] {logging_mixin.py:109} INFO - [2021-10-24 23:56:46,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:47,688] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:56:47,689] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:56:47,690] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:56:47,707] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:56:47,718] {logging_mixin.py:109} INFO - [2021-10-24 23:56:47,717] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:56:47,732] {logging_mixin.py:109} INFO - [2021-10-24 23:56:47,732] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:56:47,740] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.834 seconds
+[2021-10-24 23:57:17,826] {processor.py:163} INFO - Started process (PID=1304) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:17,828] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:57:17,829] {logging_mixin.py:109} INFO - [2021-10-24 23:57:17,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:18,755] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:57:18,756] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:57:18,757] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:57:18,774] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:18,786] {logging_mixin.py:109} INFO - [2021-10-24 23:57:18,784] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:57:18,799] {logging_mixin.py:109} INFO - [2021-10-24 23:57:18,799] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:57:18,808] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.988 seconds
+[2021-10-24 23:57:48,949] {processor.py:163} INFO - Started process (PID=1370) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:48,950] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:57:48,950] {logging_mixin.py:109} INFO - [2021-10-24 23:57:48,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:50,025] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:57:50,028] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:57:50,029] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:57:50,060] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:57:50,082] {logging_mixin.py:109} INFO - [2021-10-24 23:57:50,079] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:57:50,104] {logging_mixin.py:109} INFO - [2021-10-24 23:57:50,103] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:57:50,118] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.171 seconds
+[2021-10-24 23:58:20,445] {processor.py:163} INFO - Started process (PID=1436) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:20,447] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:58:20,448] {logging_mixin.py:109} INFO - [2021-10-24 23:58:20,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:21,682] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:58:21,685] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:58:21,686] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:58:21,717] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:21,738] {logging_mixin.py:109} INFO - [2021-10-24 23:58:21,736] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:58:21,758] {logging_mixin.py:109} INFO - [2021-10-24 23:58:21,758] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:58:21,770] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.328 seconds
+[2021-10-24 23:58:51,859] {processor.py:163} INFO - Started process (PID=1513) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:51,861] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:58:51,862] {logging_mixin.py:109} INFO - [2021-10-24 23:58:51,862] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:52,687] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:58:52,689] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:58:52,690] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:58:52,708] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:58:52,720] {logging_mixin.py:109} INFO - [2021-10-24 23:58:52,719] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:58:52,735] {logging_mixin.py:109} INFO - [2021-10-24 23:58:52,734] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:58:52,746] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 0.897 seconds
+[2021-10-24 23:59:23,201] {processor.py:163} INFO - Started process (PID=1579) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:23,203] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:59:23,204] {logging_mixin.py:109} INFO - [2021-10-24 23:59:23,204] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:24,170] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:59:24,173] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:59:24,174] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:59:24,193] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:24,208] {logging_mixin.py:109} INFO - [2021-10-24 23:59:24,207] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:59:24,227] {logging_mixin.py:109} INFO - [2021-10-24 23:59:24,227] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:59:24,237] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.039 seconds
+[2021-10-24 23:59:54,753] {processor.py:163} INFO - Started process (PID=1653) to work on /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:54,754] {processor.py:620} INFO - Processing file /opt/airflow/dags/bigquery_github_trends.py for tasks to queue
+[2021-10-24 23:59:54,755] {logging_mixin.py:109} INFO - [2021-10-24 23:59:54,755] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:55,928] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py:331 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:59:55,932] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: The bigquery_conn_id parameter has been deprecated. You should pass the gcp_conn_id parameter.
+[2021-10-24 23:59:55,934] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/operators/bigquery_operator.py:55 DeprecationWarning: This operator is deprecated. Please use `BigQueryInsertJobOperator`.
+[2021-10-24 23:59:55,967] {processor.py:632} INFO - DAG(s) dict_keys(['bigquery_github_trends']) retrieved from /opt/airflow/dags/bigquery_github_trends.py
+[2021-10-24 23:59:55,988] {logging_mixin.py:109} INFO - [2021-10-24 23:59:55,986] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-24 23:59:56,016] {logging_mixin.py:109} INFO - [2021-10-24 23:59:56,015] {dag.py:2914} INFO - Setting next_dagrun for bigquery_github_trends to 2021-10-17 21:00:00+00:00
+[2021-10-24 23:59:56,028] {processor.py:171} INFO - Processing /opt/airflow/dags/bigquery_github_trends.py took 1.278 seconds

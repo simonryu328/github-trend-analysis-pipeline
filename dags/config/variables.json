@@ -1,0 +1,7 @@
+{
+	"bigquery_github_trends_variables": {
+		"bq_conn_id": "my_gcp_conn",
+		"bq_project": "evocative-line-329301",
+		"bq_dataset": "github_trends"
+	}
+}

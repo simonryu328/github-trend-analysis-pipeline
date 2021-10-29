@@ -1,0 +1,86 @@
+[2021-10-15 20:21:15,734] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: postgres_hook_dag.hook_task scheduled__2021-10-14T10:00:00+00:00 [queued]>
+[2021-10-15 20:21:15,768] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: postgres_hook_dag.hook_task scheduled__2021-10-14T10:00:00+00:00 [queued]>
+[2021-10-15 20:21:15,768] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-15 20:21:15,768] {taskinstance.py:1242} INFO - Starting attempt 2 of 2
+[2021-10-15 20:21:15,768] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-15 20:21:15,804] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): hook_task> on 2021-10-14 10:00:00+00:00
+[2021-10-15 20:21:15,818] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_hook_dag', 'hook_task', 'scheduled__2021-10-14T10:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/postgres_hook_dag.py', '--cfg-path', '/tmp/tmpkl6v5mwk', '--error-file', '/tmp/tmp50mu1qgy']
+[2021-10-15 20:21:15,818] {standard_task_runner.py:77} INFO - Job 24: Subtask hook_task
+[2021-10-15 20:21:15,813] {standard_task_runner.py:52} INFO - Started process 2546 to run task
+[2021-10-15 20:21:15,922] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_hook_dag.hook_task scheduled__2021-10-14T10:00:00+00:00 [running]> on host d3f93506f9d5
+[2021-10-15 20:21:15,995] {taskinstance.py:1414} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_hook_dag
+AIRFLOW_CTX_TASK_ID=hook_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-14T10:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-10-14T10:00:00+00:00
+[2021-10-15 20:21:16,008] {base.py:79} INFO - Using connection to: id: postgres_demo. Host: localhost, Port: 5432, Schema: ***_mdb, Login: ***, Password: ***, extra: {}
+[2021-10-15 20:21:16,011] {taskinstance.py:1686} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/postgres_hook_dag.py", line 19, in get_activated_sources
+    connection = pg_hook.get_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/hooks/postgres.py", line 115, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Cannot assign requested address
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+
+[2021-10-15 20:21:16,031] {taskinstance.py:1280} INFO - Marking task as FAILED. dag_id=postgres_hook_dag, task_id=hook_task, execution_date=20211014T100000, start_date=20211015T202115, end_date=20211015T202116
+[2021-10-15 20:21:16,050] {standard_task_runner.py:91} ERROR - Failed to execute job 24 for task hook_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/postgres_hook_dag.py", line 19, in get_activated_sources
+    connection = pg_hook.get_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/hooks/postgres.py", line 115, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Cannot assign requested address
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+
+[2021-10-15 20:21:16,079] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-10-15 20:21:16,123] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

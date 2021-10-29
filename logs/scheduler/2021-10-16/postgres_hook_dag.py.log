@@ -1,0 +1,385 @@
+[2021-10-16 23:32:10,518] {processor.py:163} INFO - Started process (PID=44) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:10,521] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:32:10,522] {logging_mixin.py:109} INFO - [2021-10-16 23:32:10,522] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:10,706] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:10,718] {logging_mixin.py:109} INFO - [2021-10-16 23:32:10,718] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:32:10,740] {logging_mixin.py:109} INFO - [2021-10-16 23:32:10,740] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:32:10,751] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.237 seconds
+[2021-10-16 23:32:40,859] {processor.py:163} INFO - Started process (PID=100) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:40,860] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:32:40,861] {logging_mixin.py:109} INFO - [2021-10-16 23:32:40,861] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:40,890] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:32:40,901] {logging_mixin.py:109} INFO - [2021-10-16 23:32:40,901] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:32:40,916] {logging_mixin.py:109} INFO - [2021-10-16 23:32:40,916] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:32:40,924] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.068 seconds
+[2021-10-16 23:33:11,397] {processor.py:163} INFO - Started process (PID=165) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:11,398] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:33:11,399] {logging_mixin.py:109} INFO - [2021-10-16 23:33:11,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:11,425] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:11,435] {logging_mixin.py:109} INFO - [2021-10-16 23:33:11,435] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:33:11,451] {logging_mixin.py:109} INFO - [2021-10-16 23:33:11,451] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:33:11,460] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.066 seconds
+[2021-10-16 23:33:41,787] {processor.py:163} INFO - Started process (PID=222) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:41,789] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:33:41,790] {logging_mixin.py:109} INFO - [2021-10-16 23:33:41,790] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:41,822] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:33:41,833] {logging_mixin.py:109} INFO - [2021-10-16 23:33:41,833] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:33:41,850] {logging_mixin.py:109} INFO - [2021-10-16 23:33:41,850] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:33:41,860] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.076 seconds
+[2021-10-16 23:34:11,991] {processor.py:163} INFO - Started process (PID=280) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:12,004] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:34:12,005] {logging_mixin.py:109} INFO - [2021-10-16 23:34:12,004] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:12,043] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:12,056] {logging_mixin.py:109} INFO - [2021-10-16 23:34:12,056] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:34:12,082] {logging_mixin.py:109} INFO - [2021-10-16 23:34:12,082] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:34:12,094] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.107 seconds
+[2021-10-16 23:34:42,742] {processor.py:163} INFO - Started process (PID=338) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:42,743] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:34:42,744] {logging_mixin.py:109} INFO - [2021-10-16 23:34:42,744] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:42,799] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:34:42,835] {logging_mixin.py:109} INFO - [2021-10-16 23:34:42,835] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:34:42,864] {logging_mixin.py:109} INFO - [2021-10-16 23:34:42,864] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:34:42,899] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.161 seconds
+[2021-10-16 23:35:13,235] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:13,237] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:35:13,238] {logging_mixin.py:109} INFO - [2021-10-16 23:35:13,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:13,274] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:13,287] {logging_mixin.py:109} INFO - [2021-10-16 23:35:13,286] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:35:13,307] {logging_mixin.py:109} INFO - [2021-10-16 23:35:13,307] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:35:13,327] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.096 seconds
+[2021-10-16 23:35:44,147] {processor.py:163} INFO - Started process (PID=466) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:44,149] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:35:44,150] {logging_mixin.py:109} INFO - [2021-10-16 23:35:44,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:44,193] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:35:44,211] {logging_mixin.py:109} INFO - [2021-10-16 23:35:44,211] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:35:44,235] {logging_mixin.py:109} INFO - [2021-10-16 23:35:44,234] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:35:44,248] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.105 seconds
+[2021-10-16 23:36:14,876] {processor.py:163} INFO - Started process (PID=521) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:14,877] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:36:14,878] {logging_mixin.py:109} INFO - [2021-10-16 23:36:14,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:14,909] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:14,921] {logging_mixin.py:109} INFO - [2021-10-16 23:36:14,921] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:36:14,938] {logging_mixin.py:109} INFO - [2021-10-16 23:36:14,938] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:36:14,946] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.073 seconds
+[2021-10-16 23:36:45,218] {processor.py:163} INFO - Started process (PID=587) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:45,220] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:36:45,220] {logging_mixin.py:109} INFO - [2021-10-16 23:36:45,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:45,251] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:36:45,262] {logging_mixin.py:109} INFO - [2021-10-16 23:36:45,262] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:36:45,278] {logging_mixin.py:109} INFO - [2021-10-16 23:36:45,278] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:36:45,286] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.071 seconds
+[2021-10-16 23:37:15,383] {processor.py:163} INFO - Started process (PID=642) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:15,389] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:37:15,389] {logging_mixin.py:109} INFO - [2021-10-16 23:37:15,389] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:15,517] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:15,533] {logging_mixin.py:109} INFO - [2021-10-16 23:37:15,533] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:37:15,571] {logging_mixin.py:109} INFO - [2021-10-16 23:37:15,571] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:37:15,599] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.220 seconds
+[2021-10-16 23:37:45,968] {processor.py:163} INFO - Started process (PID=697) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:45,969] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:37:45,970] {logging_mixin.py:109} INFO - [2021-10-16 23:37:45,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:46,002] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:37:46,016] {logging_mixin.py:109} INFO - [2021-10-16 23:37:46,016] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:37:46,034] {logging_mixin.py:109} INFO - [2021-10-16 23:37:46,033] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:37:46,059] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.094 seconds
+[2021-10-16 23:38:16,127] {processor.py:163} INFO - Started process (PID=764) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:16,128] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:38:16,129] {logging_mixin.py:109} INFO - [2021-10-16 23:38:16,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:16,166] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:16,175] {logging_mixin.py:109} INFO - [2021-10-16 23:38:16,175] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:38:16,190] {logging_mixin.py:109} INFO - [2021-10-16 23:38:16,189] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:38:16,197] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.076 seconds
+[2021-10-16 23:38:46,453] {processor.py:163} INFO - Started process (PID=819) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:46,455] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:38:46,456] {logging_mixin.py:109} INFO - [2021-10-16 23:38:46,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:46,496] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:38:46,508] {logging_mixin.py:109} INFO - [2021-10-16 23:38:46,508] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:38:46,525] {logging_mixin.py:109} INFO - [2021-10-16 23:38:46,524] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:38:46,533] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.084 seconds
+[2021-10-16 23:39:16,839] {processor.py:163} INFO - Started process (PID=875) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:16,839] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:39:16,840] {logging_mixin.py:109} INFO - [2021-10-16 23:39:16,840] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:16,868] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:16,881] {logging_mixin.py:109} INFO - [2021-10-16 23:39:16,881] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:39:16,898] {logging_mixin.py:109} INFO - [2021-10-16 23:39:16,898] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:39:16,907] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.071 seconds
+[2021-10-16 23:39:47,316] {processor.py:163} INFO - Started process (PID=940) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:47,317] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:39:47,317] {logging_mixin.py:109} INFO - [2021-10-16 23:39:47,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:47,347] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:39:47,359] {logging_mixin.py:109} INFO - [2021-10-16 23:39:47,359] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:39:47,376] {logging_mixin.py:109} INFO - [2021-10-16 23:39:47,376] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:39:47,385] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.072 seconds
+[2021-10-16 23:40:17,553] {processor.py:163} INFO - Started process (PID=995) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:17,554] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:40:17,554] {logging_mixin.py:109} INFO - [2021-10-16 23:40:17,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:17,581] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:17,591] {logging_mixin.py:109} INFO - [2021-10-16 23:40:17,591] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:40:17,605] {logging_mixin.py:109} INFO - [2021-10-16 23:40:17,605] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:40:17,613] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.062 seconds
+[2021-10-16 23:40:47,836] {processor.py:163} INFO - Started process (PID=1062) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:47,837] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:40:47,837] {logging_mixin.py:109} INFO - [2021-10-16 23:40:47,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:47,864] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:40:47,874] {logging_mixin.py:109} INFO - [2021-10-16 23:40:47,874] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:40:47,891] {logging_mixin.py:109} INFO - [2021-10-16 23:40:47,890] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:40:47,899] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.066 seconds
+[2021-10-16 23:41:18,112] {processor.py:163} INFO - Started process (PID=1117) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:18,114] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:41:18,115] {logging_mixin.py:109} INFO - [2021-10-16 23:41:18,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:18,144] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:18,154] {logging_mixin.py:109} INFO - [2021-10-16 23:41:18,154] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:41:18,171] {logging_mixin.py:109} INFO - [2021-10-16 23:41:18,171] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:41:18,179] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.070 seconds
+[2021-10-16 23:41:49,053] {processor.py:163} INFO - Started process (PID=1172) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:49,054] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:41:49,055] {logging_mixin.py:109} INFO - [2021-10-16 23:41:49,055] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:49,098] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:41:49,110] {logging_mixin.py:109} INFO - [2021-10-16 23:41:49,110] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:41:49,130] {logging_mixin.py:109} INFO - [2021-10-16 23:41:49,130] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:41:49,139] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.090 seconds
+[2021-10-16 23:42:19,226] {processor.py:163} INFO - Started process (PID=1237) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:19,229] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:42:19,231] {logging_mixin.py:109} INFO - [2021-10-16 23:42:19,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:19,269] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:19,284] {logging_mixin.py:109} INFO - [2021-10-16 23:42:19,283] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:42:19,304] {logging_mixin.py:109} INFO - [2021-10-16 23:42:19,304] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:42:19,312] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.097 seconds
+[2021-10-16 23:42:49,529] {processor.py:163} INFO - Started process (PID=1292) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:49,531] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:42:49,532] {logging_mixin.py:109} INFO - [2021-10-16 23:42:49,531] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:49,567] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:42:49,580] {logging_mixin.py:109} INFO - [2021-10-16 23:42:49,580] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:42:49,599] {logging_mixin.py:109} INFO - [2021-10-16 23:42:49,599] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:42:49,608] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.084 seconds
+[2021-10-16 23:43:19,662] {processor.py:163} INFO - Started process (PID=1358) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:19,663] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:43:19,664] {logging_mixin.py:109} INFO - [2021-10-16 23:43:19,664] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:19,694] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:19,706] {logging_mixin.py:109} INFO - [2021-10-16 23:43:19,706] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:43:19,724] {logging_mixin.py:109} INFO - [2021-10-16 23:43:19,724] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:43:19,733] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.073 seconds
+[2021-10-16 23:43:50,253] {processor.py:163} INFO - Started process (PID=1415) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:50,256] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:43:50,258] {logging_mixin.py:109} INFO - [2021-10-16 23:43:50,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:50,300] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:43:50,310] {logging_mixin.py:109} INFO - [2021-10-16 23:43:50,310] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:43:50,326] {logging_mixin.py:109} INFO - [2021-10-16 23:43:50,326] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:43:50,334] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.091 seconds
+[2021-10-16 23:44:20,632] {processor.py:163} INFO - Started process (PID=1470) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:20,634] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:44:20,634] {logging_mixin.py:109} INFO - [2021-10-16 23:44:20,634] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:20,672] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:20,686] {logging_mixin.py:109} INFO - [2021-10-16 23:44:20,686] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:44:20,707] {logging_mixin.py:109} INFO - [2021-10-16 23:44:20,707] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:44:20,716] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.087 seconds
+[2021-10-16 23:44:51,126] {processor.py:163} INFO - Started process (PID=1536) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:51,128] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:44:51,129] {logging_mixin.py:109} INFO - [2021-10-16 23:44:51,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:51,154] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:44:51,163] {logging_mixin.py:109} INFO - [2021-10-16 23:44:51,163] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:44:51,177] {logging_mixin.py:109} INFO - [2021-10-16 23:44:51,177] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:44:51,185] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.061 seconds
+[2021-10-16 23:45:21,520] {processor.py:163} INFO - Started process (PID=1591) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:21,521] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:45:21,521] {logging_mixin.py:109} INFO - [2021-10-16 23:45:21,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:21,548] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:21,558] {logging_mixin.py:109} INFO - [2021-10-16 23:45:21,558] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:45:21,572] {logging_mixin.py:109} INFO - [2021-10-16 23:45:21,572] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:45:21,581] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.063 seconds
+[2021-10-16 23:45:51,915] {processor.py:163} INFO - Started process (PID=1657) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:51,917] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:45:51,917] {logging_mixin.py:109} INFO - [2021-10-16 23:45:51,917] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:51,947] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:45:51,959] {logging_mixin.py:109} INFO - [2021-10-16 23:45:51,959] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:45:51,975] {logging_mixin.py:109} INFO - [2021-10-16 23:45:51,975] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:45:51,983] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.070 seconds
+[2021-10-16 23:46:22,454] {processor.py:163} INFO - Started process (PID=1712) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:22,456] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:46:22,456] {logging_mixin.py:109} INFO - [2021-10-16 23:46:22,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:22,483] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:22,493] {logging_mixin.py:109} INFO - [2021-10-16 23:46:22,493] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:46:22,507] {logging_mixin.py:109} INFO - [2021-10-16 23:46:22,507] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:46:22,514] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.062 seconds
+[2021-10-16 23:46:52,879] {processor.py:163} INFO - Started process (PID=1775) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:52,880] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:46:52,881] {logging_mixin.py:109} INFO - [2021-10-16 23:46:52,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:52,908] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:46:52,919] {logging_mixin.py:109} INFO - [2021-10-16 23:46:52,919] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:46:52,938] {logging_mixin.py:109} INFO - [2021-10-16 23:46:52,937] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:46:52,946] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.069 seconds
+[2021-10-16 23:47:23,531] {processor.py:163} INFO - Started process (PID=1834) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:23,533] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:47:23,534] {logging_mixin.py:109} INFO - [2021-10-16 23:47:23,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:23,571] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:23,588] {logging_mixin.py:109} INFO - [2021-10-16 23:47:23,588] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:47:23,614] {logging_mixin.py:109} INFO - [2021-10-16 23:47:23,614] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:47:23,625] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.100 seconds
+[2021-10-16 23:47:53,725] {processor.py:163} INFO - Started process (PID=1889) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:53,729] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:47:53,730] {logging_mixin.py:109} INFO - [2021-10-16 23:47:53,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:53,766] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:47:53,777] {logging_mixin.py:109} INFO - [2021-10-16 23:47:53,777] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:47:53,794] {logging_mixin.py:109} INFO - [2021-10-16 23:47:53,794] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:47:53,802] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.085 seconds
+[2021-10-16 23:48:23,876] {processor.py:163} INFO - Started process (PID=1954) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:23,877] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:48:23,878] {logging_mixin.py:109} INFO - [2021-10-16 23:48:23,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:23,912] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:23,925] {logging_mixin.py:109} INFO - [2021-10-16 23:48:23,925] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:48:23,945] {logging_mixin.py:109} INFO - [2021-10-16 23:48:23,945] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:48:23,955] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.082 seconds
+[2021-10-16 23:48:54,128] {processor.py:163} INFO - Started process (PID=2009) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:54,132] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:48:54,134] {logging_mixin.py:109} INFO - [2021-10-16 23:48:54,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:54,174] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:48:54,185] {logging_mixin.py:109} INFO - [2021-10-16 23:48:54,185] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:48:54,200] {logging_mixin.py:109} INFO - [2021-10-16 23:48:54,200] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:48:54,208] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.087 seconds
+[2021-10-16 23:49:24,462] {processor.py:163} INFO - Started process (PID=2064) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:24,466] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:49:24,467] {logging_mixin.py:109} INFO - [2021-10-16 23:49:24,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:24,536] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:24,559] {logging_mixin.py:109} INFO - [2021-10-16 23:49:24,558] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:49:24,595] {logging_mixin.py:109} INFO - [2021-10-16 23:49:24,595] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:49:24,612] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.157 seconds
+[2021-10-16 23:49:54,668] {processor.py:163} INFO - Started process (PID=2131) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:54,670] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:49:54,670] {logging_mixin.py:109} INFO - [2021-10-16 23:49:54,670] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:54,695] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:49:54,704] {logging_mixin.py:109} INFO - [2021-10-16 23:49:54,704] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:49:54,719] {logging_mixin.py:109} INFO - [2021-10-16 23:49:54,718] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:49:54,726] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.060 seconds
+[2021-10-16 23:50:25,080] {processor.py:163} INFO - Started process (PID=2187) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:25,081] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:50:25,082] {logging_mixin.py:109} INFO - [2021-10-16 23:50:25,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:25,115] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:25,125] {logging_mixin.py:109} INFO - [2021-10-16 23:50:25,125] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:50:25,141] {logging_mixin.py:109} INFO - [2021-10-16 23:50:25,141] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:50:25,148] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.071 seconds
+[2021-10-16 23:50:55,200] {processor.py:163} INFO - Started process (PID=2252) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:55,201] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:50:55,201] {logging_mixin.py:109} INFO - [2021-10-16 23:50:55,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:55,229] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:50:55,238] {logging_mixin.py:109} INFO - [2021-10-16 23:50:55,238] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:50:55,252] {logging_mixin.py:109} INFO - [2021-10-16 23:50:55,252] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:50:55,261] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.064 seconds
+[2021-10-16 23:51:26,057] {processor.py:163} INFO - Started process (PID=2307) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:26,058] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:51:26,059] {logging_mixin.py:109} INFO - [2021-10-16 23:51:26,059] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:26,093] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:26,107] {logging_mixin.py:109} INFO - [2021-10-16 23:51:26,107] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:51:26,127] {logging_mixin.py:109} INFO - [2021-10-16 23:51:26,127] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:51:26,136] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.085 seconds
+[2021-10-16 23:51:56,160] {processor.py:163} INFO - Started process (PID=2364) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:56,161] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:51:56,162] {logging_mixin.py:109} INFO - [2021-10-16 23:51:56,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:56,189] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:51:56,198] {logging_mixin.py:109} INFO - [2021-10-16 23:51:56,198] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:51:56,213] {logging_mixin.py:109} INFO - [2021-10-16 23:51:56,213] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:51:56,221] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.063 seconds
+[2021-10-16 23:52:26,438] {processor.py:163} INFO - Started process (PID=2429) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:26,441] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:52:26,443] {logging_mixin.py:109} INFO - [2021-10-16 23:52:26,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:26,526] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:26,541] {logging_mixin.py:109} INFO - [2021-10-16 23:52:26,541] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:52:26,563] {logging_mixin.py:109} INFO - [2021-10-16 23:52:26,563] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:52:26,575] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.148 seconds
+[2021-10-16 23:52:56,934] {processor.py:163} INFO - Started process (PID=2485) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:56,935] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:52:56,936] {logging_mixin.py:109} INFO - [2021-10-16 23:52:56,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:56,973] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:52:56,985] {logging_mixin.py:109} INFO - [2021-10-16 23:52:56,985] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:52:57,004] {logging_mixin.py:109} INFO - [2021-10-16 23:52:57,004] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:52:57,014] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.085 seconds
+[2021-10-16 23:53:27,387] {processor.py:163} INFO - Started process (PID=2553) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:27,390] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:53:27,390] {logging_mixin.py:109} INFO - [2021-10-16 23:53:27,390] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:27,418] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:27,430] {logging_mixin.py:109} INFO - [2021-10-16 23:53:27,430] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:53:27,449] {logging_mixin.py:109} INFO - [2021-10-16 23:53:27,449] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:53:27,458] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.074 seconds
+[2021-10-16 23:53:57,487] {processor.py:163} INFO - Started process (PID=2608) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:57,488] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:53:57,489] {logging_mixin.py:109} INFO - [2021-10-16 23:53:57,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:57,527] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:53:57,545] {logging_mixin.py:109} INFO - [2021-10-16 23:53:57,545] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:53:57,572] {logging_mixin.py:109} INFO - [2021-10-16 23:53:57,572] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:53:57,585] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.102 seconds
+[2021-10-16 23:54:27,827] {processor.py:163} INFO - Started process (PID=2663) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:27,828] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:54:27,829] {logging_mixin.py:109} INFO - [2021-10-16 23:54:27,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:27,868] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:27,885] {logging_mixin.py:109} INFO - [2021-10-16 23:54:27,885] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:54:27,911] {logging_mixin.py:109} INFO - [2021-10-16 23:54:27,910] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:54:27,923] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.100 seconds
+[2021-10-16 23:54:58,319] {processor.py:163} INFO - Started process (PID=2727) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:58,320] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:54:58,321] {logging_mixin.py:109} INFO - [2021-10-16 23:54:58,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:58,353] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:54:58,366] {logging_mixin.py:109} INFO - [2021-10-16 23:54:58,366] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:54:58,386] {logging_mixin.py:109} INFO - [2021-10-16 23:54:58,386] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:54:58,395] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.080 seconds
+[2021-10-16 23:55:28,543] {processor.py:163} INFO - Started process (PID=2787) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:28,546] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:55:28,546] {logging_mixin.py:109} INFO - [2021-10-16 23:55:28,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:28,573] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:28,591] {logging_mixin.py:109} INFO - [2021-10-16 23:55:28,591] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:55:28,619] {logging_mixin.py:109} INFO - [2021-10-16 23:55:28,619] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:55:28,631] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.090 seconds
+[2021-10-16 23:55:58,746] {processor.py:163} INFO - Started process (PID=2843) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:58,748] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:55:58,749] {logging_mixin.py:109} INFO - [2021-10-16 23:55:58,749] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:58,787] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:55:58,802] {logging_mixin.py:109} INFO - [2021-10-16 23:55:58,801] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:55:58,823] {logging_mixin.py:109} INFO - [2021-10-16 23:55:58,823] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:55:58,835] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.093 seconds
+[2021-10-16 23:56:28,908] {processor.py:163} INFO - Started process (PID=2899) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:28,909] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:56:28,910] {logging_mixin.py:109} INFO - [2021-10-16 23:56:28,910] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:28,937] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:28,949] {logging_mixin.py:109} INFO - [2021-10-16 23:56:28,949] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:56:28,968] {logging_mixin.py:109} INFO - [2021-10-16 23:56:28,968] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:56:28,975] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.070 seconds
+[2021-10-16 23:56:59,071] {processor.py:163} INFO - Started process (PID=2965) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:59,073] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:56:59,074] {logging_mixin.py:109} INFO - [2021-10-16 23:56:59,074] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:59,113] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:56:59,128] {logging_mixin.py:109} INFO - [2021-10-16 23:56:59,128] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:56:59,149] {logging_mixin.py:109} INFO - [2021-10-16 23:56:59,149] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:56:59,160] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.093 seconds
+[2021-10-16 23:57:29,528] {processor.py:163} INFO - Started process (PID=3021) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:57:29,530] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:57:29,530] {logging_mixin.py:109} INFO - [2021-10-16 23:57:29,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:57:29,572] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:57:29,588] {logging_mixin.py:109} INFO - [2021-10-16 23:57:29,588] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:57:29,611] {logging_mixin.py:109} INFO - [2021-10-16 23:57:29,611] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:57:29,623] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.100 seconds
+[2021-10-16 23:58:00,034] {processor.py:163} INFO - Started process (PID=3077) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:00,037] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:58:00,039] {logging_mixin.py:109} INFO - [2021-10-16 23:58:00,038] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:00,080] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:00,095] {logging_mixin.py:109} INFO - [2021-10-16 23:58:00,095] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:58:00,117] {logging_mixin.py:109} INFO - [2021-10-16 23:58:00,117] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:58:00,127] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.099 seconds
+[2021-10-16 23:58:30,317] {processor.py:163} INFO - Started process (PID=3144) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:30,318] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:58:30,319] {logging_mixin.py:109} INFO - [2021-10-16 23:58:30,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:30,348] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:58:30,360] {logging_mixin.py:109} INFO - [2021-10-16 23:58:30,360] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:58:30,376] {logging_mixin.py:109} INFO - [2021-10-16 23:58:30,375] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:58:30,384] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.069 seconds
+[2021-10-16 23:59:00,448] {processor.py:163} INFO - Started process (PID=3200) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:00,449] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:59:00,450] {logging_mixin.py:109} INFO - [2021-10-16 23:59:00,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:00,482] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:00,494] {logging_mixin.py:109} INFO - [2021-10-16 23:59:00,494] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:59:00,515] {logging_mixin.py:109} INFO - [2021-10-16 23:59:00,515] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:59:00,527] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.081 seconds
+[2021-10-16 23:59:31,197] {processor.py:163} INFO - Started process (PID=3257) to work on /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:31,200] {processor.py:620} INFO - Processing file /opt/airflow/dags/postgres_hook_dag.py for tasks to queue
+[2021-10-16 23:59:31,200] {logging_mixin.py:109} INFO - [2021-10-16 23:59:31,200] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:31,228] {processor.py:632} INFO - DAG(s) dict_keys(['postgres_hook_dag']) retrieved from /opt/airflow/dags/postgres_hook_dag.py
+[2021-10-16 23:59:31,237] {logging_mixin.py:109} INFO - [2021-10-16 23:59:31,237] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-16 23:59:31,252] {logging_mixin.py:109} INFO - [2021-10-16 23:59:31,252] {dag.py:2914} INFO - Setting next_dagrun for postgres_hook_dag to None
+[2021-10-16 23:59:31,259] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_hook_dag.py took 0.065 seconds
